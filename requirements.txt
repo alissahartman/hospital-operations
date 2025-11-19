@@ -1,0 +1,29 @@
+# Data manipulation
+pandas
+numpy
+
+# SQL & database
+sqlalchemy
+psycopg2-binary
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Time series / forecasting
+statsmodels
+xgboost
+
+# Jupyter / notebooks
+jupyter
+notebook
+
+# Optional / utilities
+scikit-learn
+python-dateutil
+tqdm
+
+# Streamlit dashboard (if used later)
+streamlit
+shap

@@ -71,6 +71,11 @@ total_payroll_hours	NUMERIC	,
 total_revenue	NUMERIC	,
 uncompensated_care	NUMERIC	);
 
+ALTER TABLE oha_hospital_databank ADD COLUMN month_start DATE;
+UPDATE oha_hospital_databank SET month_start = 
+(TO_DATE(CONCAT(year,'-',month,'-',1),'YYYY-MM-DD'));
+SELECT month_start FROM oha_hospital_databank LIMIT 20;
+
 CREATE TABLE ref_hospital (		
 aha_id	INTEGER PRIMARY KEY	,
 hospital_name	VARCHAR (255)	,
@@ -80,3 +85,9 @@ critical_access	BOOLEAN	,
 congressional_district	INTEGER	,
 county	VARCHAR (255)	,
 frontier	BOOLEAN	);
+
+CREATE TABLE ref_date(
+    month_start DATE,
+    month_end DATE,
+    days INTEGER
+);
