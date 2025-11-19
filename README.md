@@ -61,11 +61,8 @@ ORDER BY 1;
 
 ---
 
-## ✅ Example Insights (Replace with your actual results)
-- Occupancy increased **significantly** from 2007–2024.  
-- Many months during 2020–2022 exceeded **100% of licensed bed capacity**.  
-- Post-2022 shows stabilization but at a higher baseline than pre-COVID.  
-- Winter months display consistently higher utilization.
+## ✅ Insights
+- TBD
 
 ---
 
