@@ -57,7 +57,7 @@ ORDER BY 1;
   - 3-mo, 6-mo, 12-mo rolling averages  
   - Year-over-year deltas  
   - COVID-period indicator  
-  - Over-capacity months (>100% occupancy)
+  - Months that exceed an operational safety threshold
 
 ---
 
@@ -71,13 +71,12 @@ This project includes visualizations such as:
 - Long-term occupancy rate trend (2007–2024)  
 - Rolling averages with COVID-era shading  
 - Histogram of occupancy levels  
-- Identification of over-capacity months  
+- Identification of high-capacity months 
 
 ---
 
 ## 🚀 Future Enhancements
 - Forecasting models (SARIMA, Prophet, etc.)  
-- Comparison to other Portland hospitals (Providence, Legacy, Adventist)  
 - Interactive Streamlit dashboard  
 
 ---
@@ -89,6 +88,5 @@ sql/                  # SQL extraction queries
 notebooks/            # EDA and visualization notebooks
 scripts/              # ETL and analysis scripts
 visualizations/       # Output charts
-project_overview.md   # Detailed documentation
 README.md             # You are here
 ```
